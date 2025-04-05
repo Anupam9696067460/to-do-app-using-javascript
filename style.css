@@ -1,0 +1,44 @@
+body {
+    font-family: Arial;
+    padding: 30px;
+    background: #f8f9fa;
+  }
+  h2 {
+    text-align: center;
+  }
+  #todoInput {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  #addBtn {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  li {
+    background: #fff;
+    padding: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  button.delete {
+    background: red;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
